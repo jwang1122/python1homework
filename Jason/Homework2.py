@@ -1,6 +1,6 @@
 print("01: 2020-20" , (2020-20))
 print("02: 494+118" , ( 494+118))
-print('03:the ten digits of 1296 is',9)
+print("03: the tens digit of 1296",9)
 print("04: 60/5",(60/5)) 
 print("05:14*50",(14*50)) 
 print("06: 66&4", (66%4))
@@ -19,8 +19,8 @@ print("37+41+45", (37+41+45))
 
 print("19:32*28", (32*28))
 x=398*202
-print("question 20 answer is ",(x//100)*100)
-print("20: 38*25", (38*25))
+print("20: answer is ",(x//100)*100)
+print("19: 38*25", (38*25))
 print("21::36*25" , (36*25))
 print("22:44*3/33" ,(44*3/33))
 print("24:342/18",(342/18))
@@ -32,5 +32,21 @@ x=29*41*61
 print("question30:",(x/10)*10)
 print("9+13+17+21+25",(9+13+17+21+25))
 print("65*65",(65*65))
+D=500
+C=100
+L=50
+X=10
+V=5
+I=1
+print("17:DCLXXVI in Roman Numeral  is",D+C+L+X+X+V+I)
 
-
+def roman_to_int(self, s):
+        rom_val = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        int_val = 0
+        for i in range(len(s)):
+            if i > 0 and rom_val[s[i]] > rom_val[s[i - 1]]:
+                int_val += rom_val[s[i]] - 2 * rom_val[s[i - 1]]
+            else:
+                int_val += rom_val[s[i]]
+        return int_val
+        print("17:DCLXXVI in Roman Numeral  is",roman_to_int("DCLXXVI"))
