@@ -11,4 +11,5 @@ def forloop():
             print(i, end=' ')
         print()
 
-forloop("1,22,333,4444")
+forloop()
+
