@@ -13,3 +13,5 @@ a = 681
 b = 292
 c = a - b
 print("15: %d - %d = %d" % (a, b, c))
+
+print("17: I don't know how to do it.")
