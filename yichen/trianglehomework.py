@@ -8,10 +8,10 @@ print a rightangle
 def forloop():
     for i in range(1, 5,):
         for j in range(4-i):
-            print(" ",end=" ")
+            print("",end=" ")
 
         for k in range(i):
-            print(i," ", end=' ')
+            print(i, end=' ')
         print()
 
 forloop()
