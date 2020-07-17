@@ -52,6 +52,3 @@ for i in range(20):
     elsa.goto(x, y) 
     elsa.pendown() 
     snowflake(sf_size) 
-  
-# leave the window open until you click to close   
-wn.exitonclick()   
