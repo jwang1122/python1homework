@@ -18,5 +18,4 @@ for i in range(1, 4, 2):
   t.goto(i*55, -50)
   t.pendown()
   t.circle(50)
-    
-   
+ 
