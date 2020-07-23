@@ -7,8 +7,8 @@ penup()
 goto(-400,250)
 pendown()
 
-#Red
-color("red")
+#Green
+color("green")
 begin_fill()
 forward(800)
 right(90)
@@ -20,8 +20,8 @@ end_fill()
 left(90)
 forward(167)
 
-#Blue
-color("darkblue")
+#Red
+color("Red")
 begin_fill()
 forward(167)
 left(90)
