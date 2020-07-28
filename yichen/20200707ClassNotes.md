@@ -73,3 +73,7 @@ rating: 1
 
 
 ```
+# 20200728ClassNotes.md
+```
+
+```
