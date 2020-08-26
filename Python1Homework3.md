@@ -1,4 +1,4 @@
-# 2020-07-16 Python Level1 Homework
+# Python Level1 Homework
 
 1. Use shapes.py to draw a snow couple as below
 
