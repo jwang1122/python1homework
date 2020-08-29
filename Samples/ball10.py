@@ -9,10 +9,10 @@ cannon = Turtle(visible=False)
 cannon.pu()
 cannon.screen.bgcolor("lightblue")
 screen = Screen()
-bg_img = 'grassField.gif'
+bg_img = './Samples/grassField.gif'
 screen.bgpic(bg_img)
-bird_img = 'bird.gif'
-bird_dead = "upsidedownbird.gif"
+bird_img = './Samples/bird.gif'
+bird_dead = "./Samples/upsidedownbird.gif"
 screen.addshape(bird_img)
 screen.addshape(bird_dead)
 
