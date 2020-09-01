@@ -17,6 +17,7 @@ python --version
 * Verfried Git Version
 ```
 git --version
+git clone https://github.com/jwang1122/python1homework.git
 git config user.name "Elliott Zhang"
 git config user.email "Elliott.Zhang.18@gmail.com"
 ```
