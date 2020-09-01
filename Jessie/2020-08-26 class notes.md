@@ -8,4 +8,6 @@
 
 ```
 git --version
+git config user.name "jessie"
+git config user.email "peizhen.zhu@gmail.com"       
 ```
