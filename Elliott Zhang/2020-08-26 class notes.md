@@ -5,6 +5,7 @@
 python --version
 ```
 * Checked/Revised the globle path for python
+* 
 
 ## Installed VScode
 * [VS code Website](https://code.visualstudio.com/)
@@ -32,3 +33,9 @@ git config user.email "Elliott.Zhang.18@gmail.com"
 * From source control, use sync or pull & push.
 
 
+## Steps to submit the homework
+* create a new program file or modified an existing file, then "save"
+* go to the "Souce Control" tap
+* Type in a message to teacher, then click the check mark.
+* Click the "..." to do the "pull" and then "push"
+* The new/modified files will be sync to the cloud folder on Github.
