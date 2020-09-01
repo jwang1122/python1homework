@@ -17,9 +17,18 @@ python --version
 * Verfried Git Version
 ```
 git --version
+```
+* Clone the github cloud folder to local workspace
+```
 git clone https://github.com/jwang1122/python1homework.git
+```
+* Sign up Github using Elliott.Zhang.18@gmail.com
+* Received an invitation from teacher's Gitbub account. Accepted.
+* Sync account
+```
 git config user.name "Elliott Zhang"
 git config user.email "Elliott.Zhang.18@gmail.com"
 ```
-* Clone the github cloud folder to local workspace
+* From source control, use sync or pull & push.
+
 
