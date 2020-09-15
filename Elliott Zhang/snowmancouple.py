@@ -1,0 +1,128 @@
+from turtle import *
+from shapes import *
+
+pen1 = Turtle()
+
+pen1.pensize(3)
+pen1.color('black')
+drawCircle(pen1, -215, 120, 40)
+
+pen1.color('brown','brown')
+pen1.begin_fill()
+drawRectangle(pen1, -240, 190, 50, 70)
+pen1.end_fill()
+
+pen1.pensize(5)
+pen1.forward(-20)
+pen1.forward(90)
+
+pen1.pensize(3)
+pen1.color('black','blue')
+pen1.begin_fill()
+drawCircle(pen1, -230, 160, 5)
+pen1.end_fill()
+
+pen1.color('black','Dark blue')
+pen1.begin_fill()
+drawCircle(pen1, -200, 160, 5)
+pen1.end_fill()
+
+pen1.color('red')
+drawLine(pen1, -215,135,0,5)
+drawLine(pen1, -210,135,-30,10)
+drawLine(pen1, -215,135,0,-5)
+drawLine(pen1, -220,135,30,-10)
+
+pen1.color('black')
+drawCircle(pen1, -215, 0, 60)
+pen1.color('black','gray')
+pen1.begin_fill()
+drawCircle(pen1, -215, 80, 10)
+pen1.end_fill()
+pen1.begin_fill()
+drawCircle(pen1, -215, 20, 10)
+pen1.end_fill()
+
+pen1.pensize(5)
+pen1.color('brown')
+drawLine(pen1, -170,80,-20,100)
+drawLine(pen1, -250,75,15,-100)
+
+pen1.pensize(3)
+pen1.color('black')
+drawCircle(pen1, -215, -160, 80)
+pen1.color('black','gray')
+pen1.begin_fill()
+drawCircle(pen1, -215, -60, 15)
+pen1.end_fill()
+pen1.begin_fill()
+drawCircle(pen1, -215, -120, 15)
+pen1.end_fill()
+
+#############################
+
+pen1.pensize(3)
+pen1.color('black')
+drawCircle(pen1, 120, 120, 40)
+
+
+pen1.color('purple','yellow')
+pen1.begin_fill()
+drawTriangle(pen1, 80, 190, 0, 80)
+pen1.end_fill()
+
+pen1.pensize(4)
+pen1.color('brown')
+drawLine(pen1, 88,190,100,60)
+drawLine(pen1, 96,190,100,30)
+drawLine(pen1, 152,190,80,60)
+drawLine(pen1, 144,190,80,30)
+
+pen1.pensize(3)
+pen1.color('black','green')
+pen1.begin_fill()
+drawCircle(pen1, 105, 160, 5)
+pen1.end_fill()
+
+pen1.pensize(3)
+pen1.color('black','green')
+pen1.begin_fill()
+drawCircle(pen1, 135, 160, 5)
+pen1.end_fill()
+
+pen1.color('red')
+drawLine(pen1, 120,133,-30,20)
+drawLine(pen1, 120,133,30,-20)
+pen1.color('red','red')
+pen1.begin_fill()
+drawCircle(pen1, 120, 135, 7)
+pen1.end_fill()
+
+pen1.color('black')
+drawCircle(pen1, 120, 0, 60)
+pen1.color('black','yellow')
+pen1.begin_fill()
+drawCircle(pen1, 120, 80, 10)
+pen1.end_fill()
+pen1.color('black','purple')
+pen1.begin_fill()
+drawCircle(pen1, 120, 20, 10)
+pen1.end_fill()
+
+pen1.pensize(5)
+pen1.color('brown')
+drawLine(pen1, 170,80,20,80)
+drawLine(pen1, 240,50,-30,-60)
+drawLine(pen1, 75,75,15,-100)
+
+pen1.pensize(3)
+pen1.color('black')
+drawCircle(pen1, 120, -160, 80)
+pen1.color('black','yellow')
+pen1.begin_fill()
+drawCircle(pen1, 120, -60, 15)
+pen1.end_fill()
+pen1.color('black','purple')
+pen1.begin_fill()
+drawCircle(pen1, 120, -120, 15)
+pen1.end_fill()
