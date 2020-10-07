@@ -126,3 +126,6 @@ pen1.color('black','purple')
 pen1.begin_fill()
 drawCircle(pen1, 120, -120, 15)
 pen1.end_fill()
+
+pen1.hideturtle()
+mainloop()

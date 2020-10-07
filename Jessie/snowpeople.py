@@ -217,6 +217,11 @@ drawCircle(pen1, 100, 0, 14)
 pen1.end_fill()
 pen1.width(0)
 
+<<<<<<< HEAD
 
 pen1.hideturtle
+=======
+pen1.hideturtle()
+
+>>>>>>> d408bdc46625973ecfbee4a9596c65ce15607a56
 mainloop()
