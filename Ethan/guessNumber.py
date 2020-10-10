@@ -4,7 +4,7 @@
 import random
 
 random_number = random.randint(1, 100)
-
+print(random_number)
 win = False
 Turns_Player_1 = 0
 while win == False:
@@ -25,7 +25,7 @@ while win == False:
 import random
 
 random_number = random.randint(1, 100)
-
+print(random_number)
 win = False
 Turns_Player_2 = 0
 while win == False:
