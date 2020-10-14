@@ -60,10 +60,10 @@ min__value = min(turns_for_all_players)
 
 min__index = get_index_positions(turns_for_all_players, min__value)
 
-n= len(min__index)
+#n = len(min__index)
 print()
 for i in min__index:
-    print('The winner is: ' +players[i]+ ' and turns he/she used: '+str(i) )
+    print('The winner is: ' +player[i]+ ' and turns he/she used: '+str(i) )
     print()
 
 print() 
