@@ -29,3 +29,5 @@ while roll_again == "yes" or roll_again == "y":
         print("Tie!")
     
     roll_again = input("Roll the dices again?")    
+    
+print("Game over!")
