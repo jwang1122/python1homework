@@ -66,4 +66,4 @@ for i in min__index:
     print('The winner is: ' +player[i]+ ' and turns he/she used: '+str(i) )
     print()
 
-print() 
+print("Game Over!") 
